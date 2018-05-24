@@ -6,6 +6,15 @@ figcaption{
   display: none
 }
 
+a{
+  color: black;
+}
+
+li{
+  background: white;
+  border-radius: 15px;
+}
+
 #logo{
   width: 25%;
   margin: auto;
@@ -56,5 +65,6 @@ figcaption{
 }
 
 nav{
-  border-radius: 15px
+  border-radius: 15px;
+  background: black;
 }
