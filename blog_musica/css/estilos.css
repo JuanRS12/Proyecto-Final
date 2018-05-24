@@ -12,16 +12,13 @@ figcaption{
     border-radius: 15px;
 }
 
-header div{
-  border: solid 1px white;
-}
-
 li{
   background: white;
   border-radius: 15px;
 }
 
 #logo{
+  top: 10px;
   width: 20%;
   margin: auto;
   padding: 10px;
@@ -36,20 +33,18 @@ li{
 }
 
 #redes_sociales{
-  display: flex;
-  flex-flow: row;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  bottom: 0px;
+  right: 0px;
+  top: 70px;
 }
 
 #redes_sociales img{
-  width: 100%;
+  width: 80%;
   padding: 10px;
   border: none;
   padding-top: 10px;
-  display: flex;
+  bottom: 0px;
+  right: 0px;
 }
 
 #logo_twitter{
@@ -59,6 +54,9 @@ li{
 @media (min-width: 300px) and (max-width: 720px)/*móvil*/{
   #redes_sociales{
     display:block;
+    bottom: 0px;
+    left: 145px;
+    top: 0px;
   }
 
   #redes_sociales img{
