@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+}
+
+figcaption{
+  display: none
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: nowrap;
+}
+
+#logo{
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 720px)/*móvil*/{
+  #logo{
+    width: 80%;
+    text-align: center;
+    border: none;
+    padding-top: 10px;
+  }
+}
+
+#redes_sociales{
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#redes_sociales img{
+  width: 30%;
+  padding: 10px;
+  border: none;
+  padding-top: 10px;
+  display: flex;
+}
+
+#pinterest_logo{
+  width: 30% !important
+}
+
+#logo_twitter{
+  border-radius: 30px 30px 30px 30px;
+  width: 30% !important;
+  padding-right: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 720px)/*móvil*/{
+  #redes_sociales{
+    display: flex;
+    flex-flow: row;
+
+  }
+
+  #redes_sociales img{
+    width: 30%;
+    border: none;
+    padding-top: 10px;
+  }
+  #logo_twitter{
+    width: 30% !important;
+  }
+  #pinterest_logo{
+    width: 30% !important;
+  }
+}
+
+nav{
+  color: white;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
