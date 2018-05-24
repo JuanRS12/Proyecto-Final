@@ -12,13 +12,17 @@ figcaption{
     border-radius: 15px;
 }
 
+header div{
+  border: solid 1px white;
+}
+
 li{
   background: white;
   border-radius: 15px;
 }
 
 #logo{
-  width: 25%;
+  width: 20%;
   margin: auto;
   padding: 10px;
 }
@@ -69,4 +73,26 @@ li{
 nav{
   background: black;
   border-radius: 15px;
+  display: flex;
+  align-content: space-between;
+}
+
+section div{
+  border: solid 1px white;
+  padding: 10px;
+  border: collapse !important;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+footer{
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
 }
