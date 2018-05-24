@@ -76,9 +76,9 @@ nav{
 }
 
 section div{
-  border: solid 1px white;
+  color: white;
+  text-align: justify;
   padding: 10px;
-  border: collapse !important;
   border-radius: 15px;
 }
 
