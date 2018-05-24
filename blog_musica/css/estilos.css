@@ -6,24 +6,16 @@ figcaption{
   display: none
 }
 
-header{
-  display: flex;
-  flex-direction: row;
-  flex-flow: row;
-  flex-wrap: nowrap;
-}
-
 #logo{
-  width: 50%;
+  width: 25%;
   margin: auto;
   padding: 10px;
 }
 
 @media (min-width: 300px) and (max-width: 720px)/*móvil*/{
   #logo{
-    width: 80%;
-    text-align: center;
-    border: none;
+    width: 25%;
+    display: block;
     padding-top: 10px;
   }
 }
@@ -38,47 +30,31 @@ header{
 }
 
 #redes_sociales img{
-  width: 30%;
+  width: 100%;
   padding: 10px;
   border: none;
   padding-top: 10px;
   display: flex;
 }
 
-#pinterest_logo{
-  width: 30% !important
-}
-
 #logo_twitter{
   border-radius: 30px 30px 30px 30px;
-  width: 30% !important;
-  padding-right: 15px;
 }
 
 @media (min-width: 300px) and (max-width: 720px)/*móvil*/{
   #redes_sociales{
-    display: flex;
-    flex-flow: row;
-
+    display:block;
   }
 
   #redes_sociales img{
-    width: 30%;
-    border: none;
-    padding-top: 10px;
+    width: 15%;
   }
+
   #logo_twitter{
-    width: 30% !important;
-  }
-  #pinterest_logo{
-    width: 30% !important;
+    width: 15% !important;
   }
 }
 
 nav{
-  color: white;
-  background: black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  border-radius: 15px
 }
