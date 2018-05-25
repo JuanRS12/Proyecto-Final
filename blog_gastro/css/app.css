@@ -1,6 +1,8 @@
 body{
   background-image: url(../img/fondo3.jpg);
-  background-size: cover;
+  background-size:cover;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 @media  (min-width:300px) and (max-width:720px){
@@ -12,6 +14,81 @@ body{
   }
 }
 
-.grid-container{
-  background-color: #ffcccc; opacity: 0.8
+h1,h2,h3,h4,h5,h6{
+  color: white;
 }
+
+p{
+  color:white;
+}
+
+a:visited{
+  color: white;
+}
+
+figcaption{
+  display: none;
+}
+
+i{
+  color:white
+}
+
+.grid-container{
+  background-color: rgba(0, 0, 0,0.3);
+}
+
+#imagenes1 img{
+  width: 30%;
+  border-radius: 15px;
+  padding: 5px;
+  float: left;
+}
+
+#imagenes2 img{
+  width: 30%;
+  border-radius: 15px;
+  padding: 5px;
+  float: left;
+}
+
+#contenedor_chilaquiles{
+  text-align: right;
+}
+
+#chilaquilesverdes{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2)
+}
+
+@media (min-width:300px) and (max-width:720px) {
+
+    #contenedor_chilaquiles{
+      text-align: center;
+      margin-left: auto;
+    }
+
+    #chilaquilesverdes{
+      width: 50%;
+      border-radius: 15px;
+    }
+
+
+}
+
+#contenedor_pastor{
+  text-align: left;
+}
+
+#tacosalpastor{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2)
+}
+
+@media (min-width:300px) and (max-width:720px) {
+
+  #contenedor_pastor{
+    text-align: center;
+  }
