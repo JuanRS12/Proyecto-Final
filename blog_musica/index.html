@@ -70,12 +70,12 @@
     </header>
 
     <!--Acá empieza la barra de navegación-->
-      <nav class="navbar navbar-expand-md navbar-light" style="background-color:white" id="nav_items">
-        <a class="navbar-brand" href="#"><strong>QUEEN</strong></a>
+      <nav class="navbar justify-content-end navbar-expand-sm navbar-light" style="background-color:white" id="nav_items">
+        <a class="navbar-brand justify-content-center" href="#"><strong>EL BLOG DE QUEEN</strong></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <div class="collapse justify-content-end navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#"><strong>ARTISTAS</strong><span class="sr-only">(current)</span></a>
@@ -101,35 +101,88 @@
         <div class="row">
           <div class="col-lg-8 col-md-8" id="caja 1">
             <div class="row">
-              <div class="col-lg-8 col-md-6">
+              <div class="col-lg-6 col-md-8">
                 <h3><strong>QUEEN: LA LEYENDA</strong></h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Este blog prentende rendir tributo a Queen, una de las bandas más representativas del rock en todos los tiempos.
+                    <br/>
+                  </br>
+                    En este sitio encontrarán fotos, videos, letras e incluso los acordes de mis canciones favoritas de Queen. También, se incluirán todas aquellas noticias de una banda, que aunque hace mucho tiempo disuelta, aún sigue marcando la historia con impecables invenciones musicales.
                   </p>
+                  <div class="container-fluid">
+                    <form role="form" action="index.html">
+                        <div class="form-group">
+                        <label for="comentario">¿Te gustaría tener acceso a contenido exclusivo de Queen?</label>
+                        <textarea name="comentario" rows="1" cols="65" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                        <input type="button" value="Enviar" class="btn btn-default">
+                        </div>
+                    </form>
+                  </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-6 col-md-4">
                     <img src="img/img1.jpg" width="100%">
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-md-4">
-                    <img src="img/img2.jpg" width="100%">
+              <div class="col-lg-6 col-md-4">
+                    <img src="img/img2.jpg" width="80%" border-radius="10px">
               </div>
-              <div class="col-lg-8 col-md-8">
+              <div class="col-lg-6 col-md-8">
                 <h3><strong>BOHEMIAN RHAPSODY: LA PELÍCULA</strong></h3>
                   <p>
 
                     24 DE MAYO DE 2018
 
-                    Finalmente, se anunció una película que rinde tributo a una de las bandas más emblemáticas y trascendentales de la historia: Queen. El largometraje ("Bohemian Rhapsody") se ha propuesto la ambiciosa labor de llevar a la pantalla grande a una de las voces más poderosas jamás escuchadas en el mundo del rock: la voz de Freddie Mercury, quien es interpretado por Rami Malek.
+                    <br/>
+                    <br>Finalmente, se anunció una película que rinde tributo a una de las bandas más emblemáticas y trascendentales de la historia: Queen. El largometraje ("Bohemian Rhapsody") se ha propuesto la ambiciosa labor de llevar a la pantalla grande a una de las voces más poderosas jamás escuchadas en el mundo del rock: la voz de Freddie Mercury, quien es interpretado por Rami Malek.
 
                     Freddie Mercury resuscitará para hacernos vibrar con sus más grandes éxitos, en una cinta que se estrnará el próximo 2 de noviembre.
                   </p>
+                  <div class="container-fluid">
+                    <form role="form" action="index.html">
+                      <div class="form-group">
+                      <label for="comentario">¿Qué tan ansioso estás de ver esta película?</label>
+                      <textarea name="comentario" rows="1" cols="65" class="form-control"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <input type="button" value="Enviar" class="btn btn-default">
+                      </div>
+                    </form>
+                  </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4" id="caja2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" type="button">Buscar</button>
+              </div>
+                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                <div class="d-flex w-100 justify-content-center">
+                  <h5 class="mb-1" style="color:black">Contenido de la Búsqueda</h5>
+                </div>
+                </a>
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100">
+                  <h5 class="mb-1" style="color:black">Bohemian Rhapsody:<br/> La Película</h5>
+                  </div>
+                  <p class="mb-1" color="black">Descubre la película que dará vida a Freddie Mercury</p>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1" style="color:black">Mitos sobre Freddie</h5>
+                  <small class="text-muted">próximamente</small>
+                  </div>
+                  <p class="mb-1">La próxima entrada tratará algunos de los mitos creados en torno a la vida de Freddie Mercury</p>
+                  <small class="text-muted">No te lo pierdas</small>
+                  </a>
+</div>
+            </div>
           </div>
       </div>
     </section>

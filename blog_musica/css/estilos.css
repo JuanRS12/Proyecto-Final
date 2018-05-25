@@ -1,5 +1,6 @@
 body{
   background-color: black;
+  font-size: 0.9em;
 }
 
 figcaption{
@@ -18,8 +19,8 @@ li{
 }
 
 #logo{
-  top: 10px;
-  width: 20%;
+  top: 25px;
+  width: 10%;
   margin: auto;
   padding: 10px;
 }
@@ -35,7 +36,7 @@ li{
 #redes_sociales{
   bottom: 0px;
   right: 0px;
-  top: 70px;
+  top: 10px;
 }
 
 #redes_sociales img{
@@ -71,8 +72,13 @@ li{
 nav{
   background: black;
   border-radius: 15px;
-  display: flex;
-  align-content: space-between;
+}
+
+@media (min-width: 300px) and (max-width: 720px)/*móvil*/{
+  nav img{
+    width:5%;
+  }
+
 }
 
 section div{
@@ -82,11 +88,13 @@ section div{
   border-radius: 15px;
 }
 
+section img{
+  border-radius: 10px
+}
 
-
-
-
-
+.list-group{
+  background: black;
+}
 
 footer{
   color: black;
