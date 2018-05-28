@@ -1,4 +1,70 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 nav{
-  float: right;
   background-color: #01579b;
+  border: collapse;
+  border: none;
+}
+
+img{
+  border-radius: 10px;
+}
+
+@media  (min-width: 300px) and (max-width="720px"){
+  #contenedor1 img{
+    text-align: center;
+    width: 50%
+  }
+}
+
+#contenedor1 img{
+  width: 100%;
+  text-align: center;
+  background-color: none;
+}
+
+.social img{
+  width: 70%;
+  height: 20%;
+}
+
+#galeria1 img{
+  width: 70%;
+  border-radius: 10px;
+}
+
+#galeria2 img{
+  width: 70%;
+  border-radius: 10px;
+}
+
+#galeria3 img{
+  height: 200%;
+  border-radius: 10px;
+}
+
+#galeria4 img{
+  width:100%;
+  border-radius: 10px;
+}
+
+#galeria5 img{
+  width:100%;
+  border-radius: 10px;
+}
+
+h5{
+  align-items: baseline;
+  color: white;
+  align-self: baseline;
+}
+
+p{
+  color:white;
+  text-align: justify;
 }
